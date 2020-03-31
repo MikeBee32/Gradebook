@@ -1,4 +1,5 @@
 using System;
+using GradeBook;
 using Xunit;
 
 namespace Gradebook.Tests

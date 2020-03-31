@@ -1,4 +1,5 @@
 using System;
+using GradeBook;
 using Xunit;
 
 namespace Gradebook.Tests
@@ -18,7 +19,7 @@ namespace Gradebook.Tests
             x = 42;
         }
 
-        private object GetInt()
+        private int GetInt()
         {
             return 3;
         }
@@ -82,7 +83,7 @@ namespace Gradebook.Tests
             Assert.Equal("JON", upper);
         }
 
-        private void MakeUpperCase(string parameter)
+        private string MakeUpperCase(string parameter)
         {
             return parameter.ToUpper();
         }
